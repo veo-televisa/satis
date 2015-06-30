@@ -1,0 +1,97 @@
+{
+    "packages": {
+        "televisa/veo-core": {
+            "dev-master": {
+                "name": "televisa/veo-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/veo-core.git",
+                    "reference": "e4d31062105bcfa419856a0d3b12cb29b3718d3b"
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "psr/log": "~1.0",
+                    "zendframework/zend-log": "~2.1",
+                    "zendframework/zend-modulemanager": "~2.1",
+                    "zendframework/zend-mvc": "~2.1"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "~1.5",
+                    "michaelmoussa/zend-psr-log": "~1.0",
+                    "mockery/mockery": " ~0.9",
+                    "pdepend/pdepend": " ~2.0",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4.3",
+                    "sebastian/phpcpd": " ~2.0",
+                    "squizlabs/php_codesniffer": "~1.5",
+                    "theseer/phpdox": " ~0.7",
+                    "zendframework/zendframework": "~2.1"
+                },
+                "time": "2015-03-12 22:36:50",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Core\\": "src/Core"
+                    }
+                },
+                "description": "Veo Core Library",
+                "homepage": "https://bitbucket.org/televisa/veo-core"
+            },
+            "dev-develop": {
+                "name": "televisa/veo-core",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/veo-core.git",
+                    "reference": "0910de021f69dd7a0ab4fe2261b3b35b8d8393e1"
+                },
+                "require": {
+                    "doctrine/doctrine-orm-module": "~0.8",
+                    "ewgo/solarium-module": "dev-master",
+                    "ircmaxell/random-lib": "~1.1",
+                    "php": ">=5.3.3",
+                    "psr/log": "~1.0",
+                    "zendframework/zend-log": "~2.1",
+                    "zendframework/zend-modulemanager": "~2.1",
+                    "zendframework/zend-mvc": "~2.1",
+                    "zfcampus/zf-apigility": "~1.0"
+                },
+                "require-dev": {
+                    "ext-uopz": "*",
+                    "fabpot/php-cs-fixer": "~1.5",
+                    "jakub-onderka/php-parallel-lint": "~0.8",
+                    "michaelmoussa/zend-psr-log": "~1.0",
+                    "mockery/mockery": " ~0.9",
+                    "pdepend/pdepend": " ~2.0",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4.3",
+                    "sebastian/phpcpd": " ~2.0",
+                    "squizlabs/php_codesniffer": "~1.5",
+                    "theseer/phpdox": " ~0.7",
+                    "zendframework/zendframework": "~2.1"
+                },
+                "time": "2015-06-30 22:46:26",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Core\\": "src/"
+                    },
+                    "psr-4": {
+                        "Core\\": "src/",
+                        "CoreTest\\": "test/"
+                    },
+                    "classmap": [
+                        "Module.php"
+                    ]
+                },
+                "description": "Veo Core Library",
+                "homepage": "https://bitbucket.org/televisa/veo-core"
+            }
+        }
+    }
+}
