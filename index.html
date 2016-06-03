@@ -44,7 +44,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Televisa Satis Server
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-06-03T09:02:51-0500">Fri, 03 Jun 2016 09:02:51 -0500</time>
+                Last updated: <time datetime="2016-06-03T09:47:02-0500">Fri, 03 Jun 2016 09:47:02 -0500</time>
             </div>
         </div>
         <div id="bd">
@@ -83,6 +83,34 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             <tr>
                                 <th>Required by</th>
                                 <td>
+                                                                                                                <ul>
+                                                                                            <li><a href="#televisa/payments-spreedly-adapter">televisa/payments-spreedly-adapter</a></li>
+                                                                                    </ul>
+                                                                    </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="televisa/payments-spreedly-adapter">televisa/payments-spreedly-adapter</h3>
+                                                    <p>Provides a payment gateway adapter to communicate with Spreedly</p>
+                                                <table>
+                                                            <tr>
+                                    <th>Homepage</th>
+                                    <td><a href="https://bitbucket.org/televisa/payments-spreedly-adapter">https://bitbucket.org/televisa/payments-spreedly-adapter</a></td>
+                                </tr>
+                                                                                                                    <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Televisa                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="git@bitbucket.org:televisa/payments-spreedly-adapter.git" title="2c7aba8341b75e1de6367f26b5e48ee1bab9943b">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
                                                                                                         </td>
                             </tr>
                         </table>
@@ -110,6 +138,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <td>
                                                                                                                 <ul>
                                                                                             <li><a href="#televisa/payments-http">televisa/payments-http</a></li>
+                                                                                            <li><a href="#televisa/payments-spreedly-adapter">televisa/payments-spreedly-adapter</a></li>
                                                                                     </ul>
                                                                     </td>
                             </tr>
@@ -138,7 +167,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-06-03T09:02:51-0500</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-06-03T09:47:02-0500</small></p>
         </div>
     </div>
 
@@ -187,7 +216,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-06-03T09:02:51-0500').fromNow());
+            $lastUpdate.text(moment('2016-06-03T09:47:02-0500').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
