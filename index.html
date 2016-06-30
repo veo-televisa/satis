@@ -44,7 +44,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Televisa Satis Server
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-06-29T15:39:39-0500">Wed, 29 Jun 2016 15:39:39 -0500</time>
+                Last updated: <time datetime="2016-06-30T12:41:58-0500">Thu, 30 Jun 2016 12:41:58 -0500</time>
             </div>
         </div>
         <div id="bd">
@@ -62,6 +62,31 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 Filter by package name:
                 <input type="text" id="search" autocomplete="off" autofocus />
 
+                                    <div>
+                        <h3 id="televisa/payments-adapter-braintree">televisa/payments-adapter-braintree</h3>
+                                                    <p>Provides a payment gateway adapter to communicate with Braintree</p>
+                                                <table>
+                                                            <tr>
+                                    <th>Homepage</th>
+                                    <td><a href="https://bitbucket.org/televisa/payments-adapter-braintree">https://bitbucket.org/televisa/payments-adapter-braintree</a></td>
+                                </tr>
+                                                                                                                    <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Televisa                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="git@bitbucket.org:televisa/payments-adapter-braintree.git" title="74b2fe019e663a2105565432cb9db4c8e459312c">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
                                     <div>
                         <h3 id="televisa/payments-adapter-spreedly">televisa/payments-adapter-spreedly</h3>
                                                     <p>Provides a payment gateway adapter to communicate with Spreedly</p>
@@ -135,34 +160,8 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <td>
                                                                                                                 <ul>
                                                                                             <li><a href="#televisa/payments-adapter-spreedly">televisa/payments-adapter-spreedly</a></li>
-                                                                                            <li><a href="#televisa/payments-spreedly-adapter">televisa/payments-spreedly-adapter</a></li>
                                                                                     </ul>
                                                                     </td>
-                            </tr>
-                        </table>
-                    </div>
-                                    <div>
-                        <h3 id="televisa/payments-spreedly-adapter">televisa/payments-spreedly-adapter</h3>
-                                                    <p>Provides a payment gateway adapter to communicate with Spreedly</p>
-                                                <table>
-                                                            <tr>
-                                    <th>Homepage</th>
-                                    <td><a href="https://bitbucket.org/televisa/payments-spreedly-adapter">https://bitbucket.org/televisa/payments-spreedly-adapter</a></td>
-                                </tr>
-                                                                                                                    <tr>
-                                    <th>Authors</th>
-                                    <td>
-                                        Televisa                                    </td>
-                                </tr>
-                                                                                    <tr>
-                                <th>Releases</th>
-                                <td>
-                                    <a href="git@bitbucket.org:televisa/payments-spreedly-adapter.git" title="972695f39d93dcbcb0ed2dd46868c7d557d1282f">dev-master</a>                                </td>
-                            </tr>
-                            <tr>
-                                <th>Required by</th>
-                                <td>
-                                                                                                        </td>
                             </tr>
                         </table>
                     </div>
@@ -182,15 +181,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                                     <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="git@bitbucket.org:televisa/payments-stdlib.git" title="6df2741ee5256cc8d8288ae260e203cab12ead35">dev-master</a>                                </td>
+                                    <a href="git@bitbucket.org:televisa/payments-stdlib.git" title="65f06dd66248d46bc5a10ff1ce6343967df302ad">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
                                 <td>
                                                                                                                 <ul>
+                                                                                            <li><a href="#televisa/payments-adapter-braintree">televisa/payments-adapter-braintree</a></li>
                                                                                             <li><a href="#televisa/payments-adapter-spreedly">televisa/payments-adapter-spreedly</a></li>
                                                                                             <li><a href="#televisa/payments-http">televisa/payments-http</a></li>
-                                                                                            <li><a href="#televisa/payments-spreedly-adapter">televisa/payments-spreedly-adapter</a></li>
                                                                                     </ul>
                                                                     </td>
                             </tr>
@@ -219,7 +218,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-06-29T15:39:39-0500</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-06-30T12:41:58-0500</small></p>
         </div>
     </div>
 
@@ -268,7 +267,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-06-29T15:39:39-0500').fromNow());
+            $lastUpdate.text(moment('2016-06-30T12:41:58-0500').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
