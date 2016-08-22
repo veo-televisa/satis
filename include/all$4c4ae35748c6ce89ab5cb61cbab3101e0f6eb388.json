@@ -1,0 +1,367 @@
+{
+    "packages": {
+        "televisa/async-pub-sub": {
+            "dev-master": {
+                "name": "televisa/async-pub-sub",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/async-pub-sub.git",
+                    "reference": "1c87f6b4651a2c6dc928b1eeb512e45ac1fdbcd4"
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~4.3",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2016-08-18 15:33:59",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Blim\\AsyncPubSub\\": "src",
+                        "Blim\\AsyncPubSubTest\\": "test/AsyncPubSubTest"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Jose David Rodriguez",
+                        "email": "jrodriguez@veo.tv"
+                    }
+                ],
+                "description": "Asynchronous messages for publisher/subscribers"
+            }
+        },
+        "televisa/payments-adapter-braintree": {
+            "dev-master": {
+                "name": "televisa/payments-adapter-braintree",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-adapter-braintree.git",
+                    "reference": "755142c7edb55c2ef657a2675b7c873225370842"
+                },
+                "require": {
+                    "braintree/braintree_php": "3.9.0",
+                    "monolog/monolog": "^1.17",
+                    "televisa/payments-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2016-08-22 20:08:13",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Adapter\\Braintree\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Adapter\\Braintree\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides a payment gateway adapter to communicate with Braintree",
+                "homepage": "https://bitbucket.org/televisa/payments-adapter-braintree"
+            }
+        },
+        "televisa/payments-adapter-spreedly": {
+            "dev-master": {
+                "name": "televisa/payments-adapter-spreedly",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-adapter-spreedly.git",
+                    "reference": "a4f5520bc75794efbbc34560b40695af0193d523"
+                },
+                "require": {
+                    "ext-openssl": "*",
+                    "guzzlehttp/guzzle": "^6.1",
+                    "monolog/monolog": "^1.17",
+                    "televisa/payments-http": "*",
+                    "televisa/payments-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2016-08-22 20:06:08",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Adapter\\Spreedly\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Adapter\\Spreedly\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides a payment gateway adapter to communicate with Spreedly",
+                "homepage": "https://bitbucket.org/televisa/payments-adapter-spreedly"
+            }
+        },
+        "televisa/payments-devlib": {
+            "dev-master": {
+                "name": "televisa/payments-devlib",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-devlib.git",
+                    "reference": "656bbb0bc4377634cc76997dded71796ba314492"
+                },
+                "require": {
+                    "phpspec/prophecy": "^1.3.1"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2016-06-26 00:36:57",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Devlib\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Devlib\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides development interfaces and classes related to payment processing",
+                "homepage": "https://bitbucket.org/televisa/payments-devlib"
+            }
+        },
+        "televisa/payments-http": {
+            "dev-master": {
+                "name": "televisa/payments-http",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-http.git",
+                    "reference": "9220047c235e2c691575c78bb51b6e56aa863017"
+                },
+                "require": {
+                    "container-interop/container-interop": "^1.1",
+                    "guzzlehttp/guzzle": "^6.1",
+                    "monolog/monolog": "^1.17",
+                    "televisa/payments-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2016-06-26 02:50:37",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Http\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Http\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides utility classes related to HTTP communication",
+                "homepage": "https://bitbucket.org/televisa/payments-http"
+            }
+        },
+        "televisa/payments-stdlib": {
+            "dev-master": {
+                "name": "televisa/payments-stdlib",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-stdlib.git",
+                    "reference": "d47da66984a66adb95653abdbaff8121e1f75c6a"
+                },
+                "require": {
+                    "psr/http-message": "^1.0"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2016-08-22 20:04:06",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Stdlib\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Stdlib\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides general interfaces and classes related to payment processing",
+                "homepage": "https://bitbucket.org/televisa/payments-stdlib"
+            }
+        },
+        "televisa/veo-core": {
+            "dev-master": {
+                "name": "televisa/veo-core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/veo-core.git",
+                    "reference": "e4d31062105bcfa419856a0d3b12cb29b3718d3b"
+                },
+                "require": {
+                    "php": ">=5.3.3",
+                    "psr/log": "~1.0",
+                    "zendframework/zend-log": "~2.1",
+                    "zendframework/zend-modulemanager": "~2.1",
+                    "zendframework/zend-mvc": "~2.1"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "~1.5",
+                    "michaelmoussa/zend-psr-log": "~1.0",
+                    "mockery/mockery": " ~0.9",
+                    "pdepend/pdepend": " ~2.0",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4.3",
+                    "sebastian/phpcpd": " ~2.0",
+                    "squizlabs/php_codesniffer": "~1.5",
+                    "theseer/phpdox": " ~0.7",
+                    "zendframework/zendframework": "~2.1"
+                },
+                "time": "2015-03-12 22:36:50",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Core\\": "src/Core"
+                    }
+                },
+                "description": "Veo Core Library",
+                "homepage": "https://bitbucket.org/televisa/veo-core"
+            },
+            "dev-develop": {
+                "name": "televisa/veo-core",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/veo-core.git",
+                    "reference": "b6942452f81e87cfeb5051d87dd8f448aa4936d9"
+                },
+                "require": {
+                    "doctrine/doctrine-orm-module": "~0.8",
+                    "ewgo/solarium-module": "dev-master",
+                    "ircmaxell/random-lib": "~1.1",
+                    "php": ">=5.3.3",
+                    "psr/log": "~1.0",
+                    "zendframework/zend-log": "~2.1",
+                    "zendframework/zend-modulemanager": "~2.1",
+                    "zendframework/zend-mvc": "~2.1",
+                    "zfcampus/zf-apigility": "~1.0"
+                },
+                "require-dev": {
+                    "ext-uopz": "*",
+                    "jakub-onderka/php-parallel-lint": "~0.8",
+                    "michaelmoussa/zend-psr-log": "~1.0",
+                    "mockery/mockery": " ~0.9",
+                    "pdepend/pdepend": " ~2.0",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4.3",
+                    "sebastian/phpcpd": " ~2.0",
+                    "squizlabs/php_codesniffer": "~2.0",
+                    "theseer/phpdox": " ~0.7",
+                    "zendframework/zendframework": "~2.1"
+                },
+                "time": "2016-07-14 20:48:33",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Core\\": "src/"
+                    },
+                    "psr-4": {
+                        "Core\\": "src/",
+                        "CoreTest\\": "test/"
+                    },
+                    "classmap": [
+                        "Module.php"
+                    ]
+                },
+                "description": "Veo Core Library",
+                "homepage": "https://bitbucket.org/televisa/veo-core"
+            }
+        }
+    }
+}
