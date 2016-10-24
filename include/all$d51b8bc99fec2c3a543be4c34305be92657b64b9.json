@@ -225,6 +225,53 @@
                 ],
                 "description": "Provides a payment gateway adapter to communicate with Spreedly",
                 "homepage": "https://bitbucket.org/televisa/payments-adapter-spreedly"
+            },
+            "dev-feature/prepaid": {
+                "name": "televisa/payments-adapter-spreedly",
+                "version": "dev-feature/prepaid",
+                "version_normalized": "dev-feature/prepaid",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-adapter-spreedly.git",
+                    "reference": "7d874c3d91a9e917bed60d3e1b3750aa1ed62603"
+                },
+                "require": {
+                    "ext-openssl": "*",
+                    "guzzlehttp/guzzle": "^6.1",
+                    "monolog/monolog": "^1.17",
+                    "televisa/payments-http": "*",
+                    "televisa/payments-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2016-10-22 13:14:20",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Adapter\\Spreedly\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Adapter\\Spreedly\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides a payment gateway adapter to communicate with Spreedly",
+                "homepage": "https://bitbucket.org/televisa/payments-adapter-spreedly"
             }
         },
         "televisa/payments-devlib": {
@@ -342,6 +389,48 @@
                     "squizlabs/php_codesniffer": "~2.3"
                 },
                 "time": "2016-10-04 13:45:34",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Stdlib\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Stdlib\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides general interfaces and classes related to payment processing",
+                "homepage": "https://bitbucket.org/televisa/payments-stdlib"
+            },
+            "dev-feature/prepaid": {
+                "name": "televisa/payments-stdlib",
+                "version": "dev-feature/prepaid",
+                "version_normalized": "dev-feature/prepaid",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-stdlib.git",
+                    "reference": "3eb8afb0cf281ba71b52e4f7ca46896bb36bf7d5"
+                },
+                "require": {
+                    "psr/http-message": "^1.0"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2016-10-19 21:03:47",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -601,7 +690,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/zuggy-webservice-proxy.git",
-                    "reference": "2e63537e31b45f9273bcc419a906a2aab0e7ab8d"
+                    "reference": "460e03ef860828b085002ebba2ef0b4130237035"
                 },
                 "require": {
                     "ext-soap": "*",
@@ -618,7 +707,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-10-19 16:02:04",
+                "time": "2016-10-24 13:56:10",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
