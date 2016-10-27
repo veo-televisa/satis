@@ -141,7 +141,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
-                    "reference": "7d0b66495093804eac058aa12986fb1b60429d1e"
+                    "reference": "21954efa7e3a1939a7e798fa40b76bf7b5f0bc7f"
                 },
                 "require": {
                     "paypal/merchant-sdk-php": "3.9.*",
@@ -157,7 +157,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-10-27 01:39:18",
+                "time": "2016-10-27 15:33:16",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -586,6 +586,53 @@
                 ],
                 "description": "Provides an MSO adapter to communicate with Payments API",
                 "homepage": "https://bitbucket.org/televisa/php-subscriber-adapter-payments"
+            }
+        },
+        "televisa/subscriber-adapter-tvcable": {
+            "dev-master": {
+                "name": "televisa/subscriber-adapter-tvcable",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/php-subscriber-adapter-tvcable.git",
+                    "reference": "e4e7c5d71655e1b3bb73a2047ff04ab9fb1225d5"
+                },
+                "require": {
+                    "monolog/monolog": "^1.17",
+                    "php": ">=5.6 <7.0",
+                    "televisa/blim-http": "*",
+                    "televisa/subscriber-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2016-10-27 19:45:41",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Subscriber\\Adapter\\TvCable\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SubscriberTest\\Adapter\\TvCable\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides an MSO adapter to communicate with TvCable",
+                "homepage": "https://bitbucket.org/televisa/php-subscriber-adapter-tvcable"
             }
         },
         "televisa/subscriber-stdlib": {
