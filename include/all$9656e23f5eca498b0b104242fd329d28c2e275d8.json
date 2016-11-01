@@ -141,7 +141,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
-                    "reference": "21954efa7e3a1939a7e798fa40b76bf7b5f0bc7f"
+                    "reference": "c6b072be9ac6500cc7765705546f5dc270b70a62"
                 },
                 "require": {
                     "paypal/merchant-sdk-php": "3.9.*",
@@ -157,7 +157,50 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-10-27 15:33:16",
+                "time": "2016-11-01 02:54:39",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Adapter\\Paypal\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Adapter\\Paypal\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides a payment gateway adapter to communicate with Paypal"
+            },
+            "dev-feature/integration": {
+                "name": "televisa/payments-adapter-paypal",
+                "version": "dev-feature/integration",
+                "version_normalized": "dev-feature/integration",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
+                    "reference": "c6b072be9ac6500cc7765705546f5dc270b70a62"
+                },
+                "require": {
+                    "paypal/merchant-sdk-php": "3.9.*",
+                    "televisa/payments-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2016-11-01 02:54:39",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
