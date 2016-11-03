@@ -639,7 +639,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-adapter-tvcable.git",
-                    "reference": "baae3a93495efb9548d488524c809fc40e9ec5b8"
+                    "reference": "424519ec82cfde04b3dbc4a71a915852b2c43691"
                 },
                 "require": {
                     "monolog/monolog": "^1.17",
@@ -656,7 +656,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-11-02 14:52:58",
+                "time": "2016-11-03 19:42:41",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
