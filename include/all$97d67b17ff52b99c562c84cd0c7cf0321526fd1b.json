@@ -184,7 +184,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
-                    "reference": "c219fafad7eb7a3e1d435ef9f4c23a8751f4332e"
+                    "reference": "62e2a961fcdaea878465c950c9318f2418879071"
                 },
                 "require": {
                     "paypal/merchant-sdk-php": "3.9.*",
@@ -200,7 +200,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-11-02 18:02:27",
+                "time": "2016-11-04 18:15:24",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -229,7 +229,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-spreedly.git",
-                    "reference": "6f2bf65d398040661231323663a5e5262ce8f266"
+                    "reference": "0e72d4f0a715807c44a1ca7e32cb653675ed1cc2"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -248,7 +248,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-11-02 18:56:32",
+                "time": "2016-11-05 14:03:24",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -459,7 +459,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-stdlib.git",
-                    "reference": "3eb8afb0cf281ba71b52e4f7ca46896bb36bf7d5"
+                    "reference": "b5b6ae44b0a118a165983a2578b0f973e065414f"
                 },
                 "require": {
                     "psr/http-message": "^1.0"
@@ -473,7 +473,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-10-19 21:03:47",
+                "time": "2016-11-04 04:27:20",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
