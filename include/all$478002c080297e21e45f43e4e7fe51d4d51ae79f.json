@@ -184,7 +184,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
-                    "reference": "62e2a961fcdaea878465c950c9318f2418879071"
+                    "reference": "798f756b94033a02be6375bcd16a9ac53b440202"
                 },
                 "require": {
                     "paypal/merchant-sdk-php": "3.9.*",
@@ -200,7 +200,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-11-04 18:15:24",
+                "time": "2016-11-08 17:02:13",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -535,6 +535,53 @@
                 ],
                 "description": "Provides general interfaces and classes related to payment processing",
                 "homepage": "https://bitbucket.org/televisa/payments-stdlib"
+            }
+        },
+        "televisa/subscriber-adapter-cabletica": {
+            "dev-master": {
+                "name": "televisa/subscriber-adapter-cabletica",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/php-subscriber-adapter-cabletica.git",
+                    "reference": "1c0861298cad4ab3f4e704d52e7d68d662119ffa"
+                },
+                "require": {
+                    "monolog/monolog": "^1.17",
+                    "php": ">=5.6 <7.0",
+                    "televisa/blim-http": "*",
+                    "televisa/subscriber-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2016-11-08 17:21:38",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Subscriber\\Adapter\\Cabletica\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SubscriberTest\\Adapter\\Cabletica\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides an MSO adapter to communicate with Cabletica",
+                "homepage": "https://bitbucket.org/televisa/php-subscriber-adapter-cabletica"
             }
         },
         "televisa/subscriber-adapter-izzi": {
