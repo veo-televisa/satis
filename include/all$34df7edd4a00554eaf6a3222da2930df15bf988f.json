@@ -184,7 +184,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
-                    "reference": "81c7d0bb013eb55c5174e0b959b4574d0879de04"
+                    "reference": "9552b3187365de6631a07146b76258dcdc03db91"
                 },
                 "require": {
                     "paypal/merchant-sdk-php": "3.9.*",
@@ -200,7 +200,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-11-15 21:21:48",
+                "time": "2016-11-15 21:24:23",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
