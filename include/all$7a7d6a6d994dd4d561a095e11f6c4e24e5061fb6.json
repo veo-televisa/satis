@@ -219,6 +219,49 @@
                     }
                 ],
                 "description": "Provides a payment gateway adapter to communicate with Paypal"
+            },
+            "dev-feature/prepaid": {
+                "name": "televisa/payments-adapter-paypal",
+                "version": "dev-feature/prepaid",
+                "version_normalized": "dev-feature/prepaid",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
+                    "reference": "daf613f5eefc96fbf39c0963a7f2043002d23ff5"
+                },
+                "require": {
+                    "paypal/merchant-sdk-php": "3.9.*",
+                    "televisa/payments-stdlib": "dev-feature/prepaid"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2016-11-15 16:51:22",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Adapter\\Paypal\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Adapter\\Paypal\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides a payment gateway adapter to communicate with Paypal"
             }
         },
         "televisa/payments-adapter-spreedly": {
