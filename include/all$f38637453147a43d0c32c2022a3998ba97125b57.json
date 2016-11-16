@@ -719,6 +719,51 @@
                 ],
                 "description": "Provides an MSO adapter to communicate with Payments API",
                 "homepage": "https://bitbucket.org/televisa/php-subscriber-adapter-payments"
+            },
+            "dev-feature/prepaid": {
+                "name": "televisa/subscriber-adapter-payments",
+                "version": "dev-feature/prepaid",
+                "version_normalized": "dev-feature/prepaid",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/php-subscriber-adapter-payments.git",
+                    "reference": "da17d53febe92bcaccf0bbb34217482ba797e331"
+                },
+                "require": {
+                    "monolog/monolog": "^1.17",
+                    "php": ">=5.6 <7.0",
+                    "televisa/blim-http": "*",
+                    "televisa/subscriber-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2016-11-16 16:57:39",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Subscriber\\Adapter\\Payments\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SubscriberTest\\Adapter\\Payments\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides an MSO adapter to communicate with Payments API",
+                "homepage": "https://bitbucket.org/televisa/php-subscriber-adapter-payments"
             }
         },
         "televisa/subscriber-adapter-tvcable": {
