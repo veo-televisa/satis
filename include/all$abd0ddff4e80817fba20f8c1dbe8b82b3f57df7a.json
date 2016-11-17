@@ -272,7 +272,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-spreedly.git",
-                    "reference": "0e72d4f0a715807c44a1ca7e32cb653675ed1cc2"
+                    "reference": "22045753a3af4a15684ca56f76893f1c5f6094d7"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -291,7 +291,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-11-05 14:03:24",
+                "time": "2016-11-17 05:10:36",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
