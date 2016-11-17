@@ -682,7 +682,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-adapter-payments.git",
-                    "reference": "8cc79060683f45ef978b9e82f4b4f088c1178992"
+                    "reference": "9d3f45d294f06a7ce3ebd757571c10334b137b99"
                 },
                 "require": {
                     "monolog/monolog": "^1.17",
@@ -699,7 +699,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-09-08 14:33:02",
+                "time": "2016-11-17 22:29:07",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
