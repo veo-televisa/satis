@@ -1,5 +1,123 @@
 {
     "packages": {
+        "blim/utils": {
+            "dev-master": {
+                "name": "blim/utils",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/blim-utils.git",
+                    "reference": "55ca11c42d2524a65052e3e9d4bad0959a163411"
+                },
+                "require": {
+                    "ext-memcached": "*",
+                    "guzzle/guzzle": "~3.7",
+                    "monolog/monolog": "~1.17",
+                    "phpmailer/phpmailer": "~5.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.8",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.2"
+                },
+                "time": "2016-02-25 21:01:02",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Blim\\Utils": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Joe Kaire",
+                        "email": "jkaire@veo.tv"
+                    }
+                ],
+                "description": "This is an updated version of the older Veo-Utils package."
+            },
+            "dev-develop": {
+                "name": "blim/utils",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/blim-utils.git",
+                    "reference": "236d30173f78d2edbfde1626e53c4c3de3e5a5a5"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "2.*",
+                    "ext-memcached": "*",
+                    "guzzle/guzzle": "~3.7",
+                    "monolog/monolog": "~1.17",
+                    "phpmailer/phpmailer": "~5.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.8",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.2"
+                },
+                "time": "2016-12-15 15:55:15",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Blim\\Utils": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Joe Kaire",
+                        "email": "jkaire@veo.tv"
+                    }
+                ],
+                "description": "This is an updated version of the older Veo-Utils package."
+            },
+            "dev-feature/prepaid": {
+                "name": "blim/utils",
+                "version": "dev-feature/prepaid",
+                "version_normalized": "dev-feature/prepaid",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/blim-utils.git",
+                    "reference": "1b9476c7c3b3ef35ffadba92357700016ee698f1"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "2.*",
+                    "ext-memcached": "*",
+                    "guzzle/guzzle": "~3.7",
+                    "monolog/monolog": "~1.17",
+                    "phpmailer/phpmailer": "~5.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.8",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.2"
+                },
+                "time": "2016-11-16 17:03:49",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Blim\\Utils": "src"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Joe Kaire",
+                        "email": "jkaire@veo.tv"
+                    }
+                ],
+                "description": "This is an updated version of the older Veo-Utils package."
+            }
+        },
         "televisa/async-pub-sub": {
             "dev-master": {
                 "name": "televisa/async-pub-sub",
