@@ -259,7 +259,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-paypal.git",
-                    "reference": "61b5f8475d4b94f901d8b1e9c94df4b9b94b499c"
+                    "reference": "c811729aa4efe9a9b31c289e8db24412be9c1bbb"
                 },
                 "require": {
                     "paypal/merchant-sdk-php": "3.9.*",
@@ -275,7 +275,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-12-21 02:27:32",
+                "time": "2017-01-05 15:47:15",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -390,7 +390,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-spreedly.git",
-                    "reference": "22045753a3af4a15684ca56f76893f1c5f6094d7"
+                    "reference": "3137ea9c7bc9acf3a2f1665d9c2f2ccc5a541cc2"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -409,7 +409,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2016-11-17 05:10:36",
+                "time": "2017-01-05 15:46:10",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
