@@ -884,6 +884,53 @@
                 "homepage": "https://bitbucket.org/televisa/php-subscriber-adapter-payments"
             }
         },
+        "televisa/subscriber-adapter-sky": {
+            "dev-master": {
+                "name": "televisa/subscriber-adapter-sky",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/php-subscriber-adapter-sky.git",
+                    "reference": "6937f8f5d2d6e0788d37426fbec6b78beae4beab"
+                },
+                "require": {
+                    "monolog/monolog": "^1.17",
+                    "php": ">=5.6 <7.0",
+                    "televisa/blim-http": "*",
+                    "televisa/subscriber-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2017-01-26 14:54:27",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Subscriber\\Adapter\\Sky\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SubscriberTest\\Adapter\\Sky\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides an MSO adapter to communicate with Sky",
+                "homepage": "https://bitbucket.org/televisa/php-subscriber-adapter-sky"
+            }
+        },
         "televisa/subscriber-adapter-tvcable": {
             "dev-master": {
                 "name": "televisa/subscriber-adapter-tvcable",
