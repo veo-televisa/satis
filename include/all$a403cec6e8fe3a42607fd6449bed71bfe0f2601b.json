@@ -613,6 +613,48 @@
                 "description": "Provides general interfaces and classes related to payment processing",
                 "homepage": "https://bitbucket.org/televisa/payments-stdlib"
             },
+            "dev-PAY-468-chargeback": {
+                "name": "televisa/payments-stdlib",
+                "version": "dev-PAY-468-chargeback",
+                "version_normalized": "dev-PAY-468-chargeback",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-stdlib.git",
+                    "reference": "ae7c6ab4caf29a38ad1be942c028063effa2cf7e"
+                },
+                "require": {
+                    "psr/http-message": "^1.0"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3"
+                },
+                "time": "2017-03-06 19:50:46",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Stdlib\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Stdlib\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides general interfaces and classes related to payment processing",
+                "homepage": "https://bitbucket.org/televisa/payments-stdlib"
+            },
             "dev-feature/prepaid": {
                 "name": "televisa/payments-stdlib",
                 "version": "dev-feature/prepaid",
