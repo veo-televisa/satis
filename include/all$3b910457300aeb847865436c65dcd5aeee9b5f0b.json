@@ -522,6 +522,54 @@
                 "homepage": "https://bitbucket.org/televisa/payments-devlib"
             }
         },
+        "televisa/payments-fraud-prevention-spreedly": {
+            "dev-master": {
+                "name": "televisa/payments-fraud-prevention-spreedly",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-fraud-prevention-spreedly.git",
+                    "reference": "a414e32aa250ce4a4e33b4f2704def4d71b14442"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.1",
+                    "monolog/monolog": "^1.17",
+                    "televisa/payments-http": "*",
+                    "televisa/payments-stdlib": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2017-04-24 13:32:56",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\FraudPrevention\\Spreedly\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\FraudPrevention\\Spreedly\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides a fraud prevention implementation for Spreedly",
+                "homepage": "https://bitbucket.org/televisa/payments-fraud-prevention-spreedly"
+            }
+        },
         "televisa/payments-http": {
             "dev-master": {
                 "name": "televisa/payments-http",
