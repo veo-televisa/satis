@@ -530,7 +530,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-fraud-prevention-spreedly.git",
-                    "reference": "d586bd8af04788635104d86108c84d7bac606656"
+                    "reference": "a7326f7f14c53cfc0dc4e69ae3cbd995fd3bad74"
                 },
                 "require": {
                     "guzzlehttp/guzzle": "^6.1",
@@ -548,7 +548,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2017-11-20 21:26:53",
+                "time": "2017-11-21 19:04:55",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
