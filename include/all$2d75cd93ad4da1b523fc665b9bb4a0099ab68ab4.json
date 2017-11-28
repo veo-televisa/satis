@@ -626,7 +626,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-stdlib.git",
-                    "reference": "ca13ceacbb99330a9065fa658b4b29e61304bb4b"
+                    "reference": "f10e06dae7fa854b963e4a778c986214d1e1c4a3"
                 },
                 "require": {
                     "psr/http-message": "^1.0"
@@ -640,7 +640,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2017-11-27 17:43:41",
+                "time": "2017-11-28 14:47:58",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
