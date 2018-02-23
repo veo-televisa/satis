@@ -259,7 +259,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-googleplay.git",
-                    "reference": "749adc2dba4d56799e50243e0c6e0497e1579e24"
+                    "reference": "81bc0dda6852f6ecc6ee1fb61848c2cb65b6dcdc"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -279,7 +279,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2018-02-20 16:56:26",
+                "time": "2018-02-23 17:57:47",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
