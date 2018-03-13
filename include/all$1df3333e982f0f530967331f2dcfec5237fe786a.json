@@ -838,6 +838,48 @@
                 "homepage": "https://bitbucket.org/televisa/payments-stdlib"
             }
         },
+        "televisa/queue-adapter": {
+            "dev-master": {
+                "name": "televisa/queue-adapter",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/queue-adapter.git",
+                    "reference": "0ce3f5381dd3b0331f1f3528f520ed956ed6cb85"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "2.8.31",
+                    "beberlei/assert": "dev-master",
+                    "jakub-onderka/php-parallel-lint": "dev-master",
+                    "squizlabs/php_codesniffer": "^3.0@dev",
+                    "televisa/payments-devlib": "dev-master",
+                    "televisa/payments-stdlib": "dev-master"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~5.0"
+                },
+                "time": "2018-03-13 19:46:44",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Queue\\Adapter\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Queue\\Test\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Management of distributed message queuing services"
+            }
+        },
         "televisa/subscriber-adapter-cabletica": {
             "dev-master": {
                 "name": "televisa/subscriber-adapter-cabletica",
@@ -1209,12 +1251,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "3d82cee5b4c3cf9b0198334f3fc7f99174a246d2"
+                    "reference": "957bf9e10e131b8e163cdde30217d2fbdb1ae3d9"
                 },
                 "require": {
                     "doctrine/doctrine-orm-module": "~0.8",
                     "ewgo/solarium-module": "dev-master",
                     "ircmaxell/random-lib": "~1.1",
+                    "maknz/slack": "^1.7",
                     "php": ">=5.3.3",
                     "psr/log": "~1.0",
                     "zendframework/zend-log": "~2.1",
@@ -1236,7 +1279,7 @@
                     "theseer/phpdox": " ~0.7",
                     "zendframework/zendframework": "~2.1"
                 },
-                "time": "2017-09-26 15:25:20",
+                "time": "2018-03-13 20:39:55",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
