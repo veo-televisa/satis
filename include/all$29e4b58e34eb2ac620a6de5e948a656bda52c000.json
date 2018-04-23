@@ -204,6 +204,56 @@
                 "homepage": "https://bitbucket.org/televisa/php-http"
             }
         },
+        "televisa/payments-adapter-applepay": {
+            "dev-master": {
+                "name": "televisa/payments-adapter-applepay",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/payments-adapter-applepay.git",
+                    "reference": "931fce0153cf56ebf8fb34f969a0d77c5567e677"
+                },
+                "require": {
+                    "aporat/store-receipt-validator": "dev-master",
+                    "ext-openssl": "*",
+                    "guzzlehttp/guzzle": "^6.1",
+                    "monolog/monolog": "^1.17",
+                    "televisa/payments-http": "*",
+                    "televisa/payments-stdlib": "dev-master"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-parallel-lint": "~0.9",
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.4",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~2.3",
+                    "televisa/payments-devlib": "*"
+                },
+                "time": "2018-04-20 15:01:19",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Payments\\Adapter\\Applepay\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PaymentsTest\\Adapter\\Applepay\\": "test/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Televisa",
+                        "email": "developers@blim.com"
+                    }
+                ],
+                "description": "Provides a payment gateway adapter to communicate with ApplePay",
+                "homepage": "https://bitbucket.org/televisa/payments-adapter-applepay"
+            }
+        },
         "televisa/payments-adapter-braintree": {
             "dev-master": {
                 "name": "televisa/payments-adapter-braintree",
