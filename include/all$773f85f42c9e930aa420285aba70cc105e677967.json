@@ -938,22 +938,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/queue-adapter.git",
-                    "reference": "0363b760ddba24184dfb8c984e6584dd37c2226c"
+                    "reference": "cd50a9621cd4004b5ff34f8e146f34cad7a3ce57"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.8.31",
                     "beberlei/assert": "^2.9",
                     "jakub-onderka/php-parallel-lint": "~0.9",
-                    "pdepend/pdepend": "dev-master",
-                    "phploc/phploc": "^4.0@dev",
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "dev-master",
                     "televisa/payments-stdlib": "dev-master"
                 },
                 "require-dev": {
+                    "pdepend/pdepend": "~2.2",
+                    "phploc/phploc": "~3.0",
                     "phpunit/phpunit": "~5.0"
                 },
-                "time": "2018-09-19 18:14:39",
+                "time": "2018-09-21 18:30:23",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
