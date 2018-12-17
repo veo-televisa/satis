@@ -938,7 +938,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/queue-adapter.git",
-                    "reference": "f4995ec9f5b784c718f31ed38c52d5c69968daf2"
+                    "reference": "55b3ea52f62fa841f8081f91a68a39717b5264a0"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.8.31",
@@ -953,7 +953,7 @@
                     "phploc/phploc": "~3.0",
                     "phpunit/phpunit": "~5.0"
                 },
-                "time": "2018-09-21 18:55:00",
+                "time": "2018-12-17 21:35:19",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
