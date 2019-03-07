@@ -212,7 +212,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-applepay.git",
-                    "reference": "ed4a135413c7791fc1c2b80cdc58affe0cc04072"
+                    "reference": "be6b1ecd98b8fc2c4addfa8cd7e84ef2429976ee"
                 },
                 "require": {
                     "aporat/store-receipt-validator": "dev-master",
@@ -232,7 +232,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2018-11-28 03:31:01",
+                "time": "2019-03-07 19:34:37",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -309,7 +309,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-googleplay.git",
-                    "reference": "b8a8f6f6fdb11dbde381da97b39ea474c957fdbe"
+                    "reference": "e4a46475f867fb39fed78f130b193828d35279c3"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -329,7 +329,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2018-11-26 19:05:24",
+                "time": "2019-03-07 20:15:26",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
