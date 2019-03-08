@@ -212,7 +212,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-applepay.git",
-                    "reference": "6795a6b584139d0a4be98e486e92e6f1bd7867c3"
+                    "reference": "2d668203ad100f1ac68f4df84831489a695e3b29"
                 },
                 "require": {
                     "aporat/store-receipt-validator": "dev-master",
@@ -232,7 +232,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2019-03-07 20:50:21",
+                "time": "2019-03-08 16:24:23",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
