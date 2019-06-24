@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "f9cb7f86b74b34063fc614d3d5979bc80aca8f8c"
+                    "reference": "75b92ef5a5e97a7f3da761310d4cdd15a27afeb6"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2019-06-12 15:53:32",
+                "time": "2019-06-24 15:54:44",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
