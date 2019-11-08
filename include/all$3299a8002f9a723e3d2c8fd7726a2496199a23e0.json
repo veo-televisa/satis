@@ -1397,7 +1397,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "4f360f4addcc7be05e5b512f34bf41d8740e9ceb"
+                    "reference": "f85c2ff555c6280b7d457fba7e41a1e3fad47a47"
                 },
                 "require": {
                     "doctrine/doctrine-orm-module": "~0.8",
@@ -1425,7 +1425,7 @@
                     "theseer/phpdox": " ~0.7",
                     "zendframework/zendframework": "~2.1"
                 },
-                "time": "2019-11-01 16:24:39",
+                "time": "2019-11-08 02:12:39",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
