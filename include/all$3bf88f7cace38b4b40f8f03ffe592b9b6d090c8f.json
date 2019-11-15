@@ -982,11 +982,11 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-adapter-cabletica.git",
-                    "reference": "1c0861298cad4ab3f4e704d52e7d68d662119ffa"
+                    "reference": "771ed99fb45c180a5853ee4ee5d18b0ce6edacdb"
                 },
                 "require": {
                     "monolog/monolog": "^1.17",
-                    "php": ">=5.6 <7.0",
+                    "php": "^5.6 || ^7.0",
                     "televisa/blim-http": "*",
                     "televisa/subscriber-stdlib": "*"
                 },
@@ -999,7 +999,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-11-08 17:21:38",
+                "time": "2019-11-15 15:02:26",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1168,11 +1168,11 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-adapter-sky.git",
-                    "reference": "6937f8f5d2d6e0788d37426fbec6b78beae4beab"
+                    "reference": "dfc4a85c6ba09a821d7251328bb75e5258370756"
                 },
                 "require": {
                     "monolog/monolog": "^1.17",
-                    "php": ">=5.6 <7.0",
+                    "php": "^5.6 || ^7.0",
                     "televisa/blim-http": "*",
                     "televisa/subscriber-stdlib": "*"
                 },
@@ -1185,7 +1185,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2017-01-26 14:54:27",
+                "time": "2019-11-15 15:02:54",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
