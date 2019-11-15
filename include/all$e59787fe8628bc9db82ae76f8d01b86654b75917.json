@@ -1029,11 +1029,11 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-adapter-izzi.git",
-                    "reference": "bfd1246694db1e7e24ec705ec066f739512ba41b"
+                    "reference": "2702a1943646be1ed16e0c47df6f2ff8c16e39ea"
                 },
                 "require": {
                     "monolog/monolog": "^1.17",
-                    "php": ">=5.6 <7.0",
+                    "php": "^5.6 || ^7.0",
                     "televisa/blim-http": "*",
                     "televisa/subscriber-stdlib": "*"
                 },
@@ -1046,7 +1046,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-11-15 15:59:00",
+                "time": "2019-11-15 14:53:06",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1076,11 +1076,11 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-adapter-payments.git",
-                    "reference": "9d3f45d294f06a7ce3ebd757571c10334b137b99"
+                    "reference": "f7bbbffff5563e3f7c94e71da9d3449c006e6eb1"
                 },
                 "require": {
                     "monolog/monolog": "^1.17",
-                    "php": ">=5.6 <7.0",
+                    "php": "^5.6 || ^7.0",
                     "televisa/blim-http": "*",
                     "televisa/subscriber-stdlib": "*"
                 },
@@ -1093,7 +1093,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-11-17 22:29:07",
+                "time": "2019-11-15 14:52:29",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1215,11 +1215,11 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-adapter-tvcable.git",
-                    "reference": "fc69099a32b11f5ee4e00040c78fa16f4ced9084"
+                    "reference": "56e6b0fb15f861f53eb9f83cc371e584499beea8"
                 },
                 "require": {
                     "monolog/monolog": "^1.17",
-                    "php": ">=5.6 <7.0",
+                    "php": "^5.6 || ^7.0",
                     "televisa/blim-http": "*",
                     "televisa/subscriber-stdlib": "*"
                 },
@@ -1232,7 +1232,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-12-12 14:41:55",
+                "time": "2019-11-15 14:56:11",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
