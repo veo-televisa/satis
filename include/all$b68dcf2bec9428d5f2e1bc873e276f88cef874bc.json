@@ -165,13 +165,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-http.git",
-                    "reference": "e5d2c121a090373177e0f741c645929bd47dbec4"
+                    "reference": "c2ae31031699b56fd814459381c60ba5fa55b727"
                 },
                 "require": {
                     "container-interop/container-interop": "^1.1",
                     "guzzlehttp/guzzle": "^6.1",
                     "monolog/monolog": "^1.17",
-                    "php": ">=5.6 <7.0"
+                    "php": "^5.6 || ^7.0"
                 },
                 "require-dev": {
                     "jakub-onderka/php-parallel-lint": "~0.9",
@@ -182,7 +182,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-09-01 19:32:10",
+                "time": "2019-11-15 11:06:32",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1262,10 +1262,10 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/php-subscriber-stdlib.git",
-                    "reference": "320574c140cf7c71f17fe40f6291302ede42adad"
+                    "reference": "dddf1e96d4531d10a026fc09239209de25809d00"
                 },
                 "require": {
-                    "php": ">=5.6 <7.0"
+                    "php": "^5.6 || ^7.0"
                 },
                 "require-dev": {
                     "jakub-onderka/php-parallel-lint": "~0.9",
@@ -1276,7 +1276,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2016-09-29 21:14:08",
+                "time": "2019-11-15 11:07:01",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
