@@ -1554,7 +1554,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/zuggy-webservice-proxy.git",
-                    "reference": "a4f427ad155f5e75bb83f34aa22a0064277ff905"
+                    "reference": "ab929a1245d9773154fd56cb28704f9dfae6307a"
                 },
                 "require": {
                     "ext-soap": "*",
@@ -1572,7 +1572,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-stdlib": "dev-master"
                 },
-                "time": "2017-02-15 02:56:41",
+                "time": "2019-11-22 05:13:50",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
