@@ -726,7 +726,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-stdlib.git",
-                    "reference": "85d887e80d005a2a00ea817cf86800ca9cec30dc"
+                    "reference": "a6965271a95b553a364cb8760fcb59e84d39be61"
                 },
                 "require": {
                     "psr/http-message": "^1.0"
@@ -740,7 +740,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2019-03-28 14:45:34",
+                "time": "2019-11-22 03:53:31",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1426,6 +1426,57 @@
                     "zendframework/zendframework": "~2.1"
                 },
                 "time": "2019-11-08 02:12:39",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Core\\": "src/"
+                    },
+                    "psr-4": {
+                        "Core\\": "src/",
+                        "CoreTest\\": "test/"
+                    },
+                    "classmap": [
+                        "Module.php"
+                    ]
+                },
+                "description": "Veo Core Library",
+                "homepage": "https://bitbucket.org/televisa/veo-core"
+            },
+            "dev-feature/php7-upgrade": {
+                "name": "televisa/veo-core",
+                "version": "dev-feature/php7-upgrade",
+                "version_normalized": "dev-feature/php7-upgrade",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/veo-core.git",
+                    "reference": "8de805dacc0e513b05671eb9996d041a2765712e"
+                },
+                "require": {
+                    "doctrine/doctrine-orm-module": "~1.1",
+                    "ewgo/solarium-module": "~1.0",
+                    "ircmaxell/random-lib": "~1.2",
+                    "maknz/slack": "~1.7",
+                    "ocramius/package-versions": "~1.4",
+                    "php": ">=7.0",
+                    "psr/container": "~1.0",
+                    "psr/log": "~1.1",
+                    "zendframework/zend-log": "~2.11",
+                    "zfcampus/zf-apigility": "~1.4"
+                },
+                "require-dev": {
+                    "ext-uopz": "*",
+                    "jakub-onderka/php-parallel-lint": "~1.0",
+                    "michaelmoussa/zend-psr-log": "~2.0",
+                    "mockery/mockery": "~1.2",
+                    "pdepend/pdepend": "~2.5",
+                    "phploc/phploc": "~3.0",
+                    "phpmd/phpmd": "~2.7",
+                    "phpunit/phpunit": "^5.7.21 || ^6.3 || ^7.1",
+                    "sebastian/phpcpd": "~2.0",
+                    "squizlabs/php_codesniffer": "~3.5",
+                    "theseer/phpdox": "~0.9"
+                },
+                "time": "2019-11-21 16:24:44",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
