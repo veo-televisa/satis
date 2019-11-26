@@ -1442,6 +1442,57 @@
                 "description": "Veo Core Library",
                 "homepage": "https://bitbucket.org/televisa/veo-core"
             },
+            "dev-feature/php-upgrade-new": {
+                "name": "televisa/veo-core",
+                "version": "dev-feature/php-upgrade-new",
+                "version_normalized": "dev-feature/php-upgrade-new",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/veo-core.git",
+                    "reference": "0240f248d50a8b0fece12bc163492aab34a23fc2"
+                },
+                "require": {
+                    "doctrine/doctrine-orm-module": "~0.8",
+                    "ewgo/solarium-module": "dev-master",
+                    "ircmaxell/random-lib": "~1.1",
+                    "maknz/slack": "^1.7",
+                    "php": ">=5.3.3",
+                    "psr/log": "~1.0",
+                    "zendframework/zend-modulemanager": "~2.1",
+                    "zendframework/zend-mvc": "~2.1",
+                    "zendframework/zendframework": "~2.4.0",
+                    "zfcampus/zf-apigility": "~1.0"
+                },
+                "require-dev": {
+                    "ext-uopz": "*",
+                    "jakub-onderka/php-parallel-lint": "~0.8",
+                    "michaelmoussa/zend-psr-log": "~1.0",
+                    "mockery/mockery": " ~0.9",
+                    "pdepend/pdepend": " ~2.0",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~4.3",
+                    "sebastian/phpcpd": " ~2.0",
+                    "squizlabs/php_codesniffer": "~2.0",
+                    "theseer/phpdox": " ~0.7"
+                },
+                "time": "2019-11-26 17:12:11",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Core\\": "src/"
+                    },
+                    "psr-4": {
+                        "Core\\": "src/",
+                        "CoreTest\\": "test/"
+                    },
+                    "classmap": [
+                        "Module.php"
+                    ]
+                },
+                "description": "Veo Core Library",
+                "homepage": "https://bitbucket.org/televisa/veo-core"
+            },
             "dev-feature/php7-upgrade": {
                 "name": "televisa/veo-core",
                 "version": "dev-feature/php7-upgrade",
