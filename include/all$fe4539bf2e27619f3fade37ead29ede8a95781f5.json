@@ -1449,14 +1449,14 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "0240f248d50a8b0fece12bc163492aab34a23fc2"
+                    "reference": "7d59a3c2ac16fa12bf45ccbfad0c1e214ed156af"
                 },
                 "require": {
                     "doctrine/doctrine-orm-module": "~0.8",
                     "ewgo/solarium-module": "dev-master",
                     "ircmaxell/random-lib": "~1.1",
                     "maknz/slack": "^1.7",
-                    "php": ">=5.3.3",
+                    "php": "^5.6 || ^7.0",
                     "psr/log": "~1.0",
                     "zendframework/zend-modulemanager": "~2.1",
                     "zendframework/zend-mvc": "~2.1",
@@ -1476,7 +1476,7 @@
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2019-11-26 17:12:11",
+                "time": "2019-11-26 21:04:18",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -1605,7 +1605,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/zuggy-webservice-proxy.git",
-                    "reference": "ab929a1245d9773154fd56cb28704f9dfae6307a"
+                    "reference": "b07721e9773d77aff01c1163680ffb80963fd58f"
                 },
                 "require": {
                     "ext-soap": "*",
@@ -1623,7 +1623,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-stdlib": "dev-master"
                 },
-                "time": "2019-11-22 05:13:50",
+                "time": "2019-12-05 04:37:57",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
