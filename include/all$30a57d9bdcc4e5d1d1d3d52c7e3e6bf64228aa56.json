@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "607a71d9467a766123668b3f1a8cc2c9d1100bdc"
+                    "reference": "66a1c31ebf7447b7a916ff5e61ea12888ff42c16"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2020-04-08 16:19:52",
+                "time": "2020-06-16 19:41:37",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -1397,18 +1397,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "bc74c522f4c7352af1e8ba926d6ecfcaf620dd1e"
+                    "reference": "4479125217353e8701546965ef910ee7cb327da6"
                 },
                 "require": {
                     "doctrine/doctrine-orm-module": "~0.8",
                     "ewgo/solarium-module": "dev-master",
                     "ircmaxell/random-lib": "~1.1",
                     "maknz/slack": "^1.7",
-                    "php": ">=5.3.3",
+                    "php": "^5.6 || ^7.0",
                     "psr/log": "~1.0",
-                    "zendframework/zend-log": "~2.1",
                     "zendframework/zend-modulemanager": "~2.1",
                     "zendframework/zend-mvc": "~2.1",
+                    "zendframework/zendframework": "~2.4.0",
                     "zfcampus/zf-apigility": "~1.0"
                 },
                 "require-dev": {
@@ -1422,10 +1422,9 @@
                     "phpunit/phpunit": "~4.3",
                     "sebastian/phpcpd": " ~2.0",
                     "squizlabs/php_codesniffer": "~2.0",
-                    "theseer/phpdox": " ~0.7",
-                    "zendframework/zendframework": "~2.1"
+                    "theseer/phpdox": " ~0.7"
                 },
-                "time": "2020-06-12 16:37:12",
+                "time": "2020-06-12 19:02:33",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
