@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "66a1c31ebf7447b7a916ff5e61ea12888ff42c16"
+                    "reference": "3c430c768d062faee0ca2fdd6a4dc12edb9fbac8"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2020-06-16 19:41:37",
+                "time": "2020-07-29 18:44:01",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -1397,9 +1397,10 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "a9c58eda4853c9ee6f88c7b707a212e4914f06c2"
+                    "reference": "be376a11669f5dfbdb8ff12e6794ee94209f9aa6"
                 },
                 "require": {
+                    "doctrine/doctrine-module": "^1.0.1",
                     "doctrine/doctrine-orm-module": "~0.8",
                     "ewgo/solarium-module": "dev-master",
                     "ircmaxell/random-lib": "~1.1",
@@ -1419,12 +1420,12 @@
                     "pdepend/pdepend": " ~2.0",
                     "phploc/phploc": " ~2.1",
                     "phpmd/phpmd": "~2.0",
-                    "phpunit/phpunit": "~4.3",
+                    "phpunit/phpunit": "~5.0",
                     "sebastian/phpcpd": " ~2.0",
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2020-06-26 23:36:36",
+                "time": "2020-07-02 19:37:07",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -1527,6 +1528,58 @@
                     "theseer/phpdox": "~0.9"
                 },
                 "time": "2019-11-21 16:24:44",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Core\\": "src/"
+                    },
+                    "psr-4": {
+                        "Core\\": "src/",
+                        "CoreTest\\": "test/"
+                    },
+                    "classmap": [
+                        "Module.php"
+                    ]
+                },
+                "description": "Veo Core Library",
+                "homepage": "https://bitbucket.org/televisa/veo-core"
+            },
+            "dev-php7-jenkins": {
+                "name": "televisa/veo-core",
+                "version": "dev-php7-jenkins",
+                "version_normalized": "dev-php7-jenkins",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:televisa/veo-core.git",
+                    "reference": "105878ee2985c6bcdd57b0687b4358bd727a0abd"
+                },
+                "require": {
+                    "doctrine/doctrine-module": "^1.0.1",
+                    "doctrine/doctrine-orm-module": "~0.8",
+                    "ewgo/solarium-module": "dev-master",
+                    "ircmaxell/random-lib": "~1.1",
+                    "maknz/slack": "^1.7",
+                    "php": "^5.6 || ^7.0",
+                    "psr/log": "~1.0",
+                    "zendframework/zend-modulemanager": "~2.1",
+                    "zendframework/zend-mvc": "~2.1",
+                    "zendframework/zendframework": "~2.4.0",
+                    "zfcampus/zf-apigility": "~1.0"
+                },
+                "require-dev": {
+                    "ext-uopz": "*",
+                    "jakub-onderka/php-parallel-lint": "~0.8",
+                    "michaelmoussa/zend-psr-log": "~1.0",
+                    "mockery/mockery": " ~0.9",
+                    "pdepend/pdepend": " ~2.0",
+                    "phploc/phploc": " ~2.1",
+                    "phpmd/phpmd": "~2.0",
+                    "phpunit/phpunit": "~5.0",
+                    "sebastian/phpcpd": " ~2.0",
+                    "squizlabs/php_codesniffer": "~2.0",
+                    "theseer/phpdox": " ~0.7"
+                },
+                "time": "2020-07-02 19:05:18",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
