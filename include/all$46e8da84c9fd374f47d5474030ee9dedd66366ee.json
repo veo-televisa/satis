@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "f64e50f1cf5fad5964604b2d973d139ea63398f4"
+                    "reference": "f230ae5c4932bd98bc2266ffa6a3e4901646ff48"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2020-07-30 20:25:31",
+                "time": "2020-08-18 18:22:07",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -1397,7 +1397,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "be376a11669f5dfbdb8ff12e6794ee94209f9aa6"
+                    "reference": "72521331262b0bcdf0b8d0ed568ec6e86eabd62f"
                 },
                 "require": {
                     "doctrine/doctrine-module": "^1.0.1",
@@ -1425,7 +1425,7 @@
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2020-07-02 19:37:07",
+                "time": "2020-08-19 21:20:17",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -1449,9 +1449,10 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "7d59a3c2ac16fa12bf45ccbfad0c1e214ed156af"
+                    "reference": "86485f19d9c690247e3ebabde50d22aa75b6c7ee"
                 },
                 "require": {
+                    "doctrine/doctrine-module": "^1.0.1",
                     "doctrine/doctrine-orm-module": "~0.8",
                     "ewgo/solarium-module": "dev-master",
                     "ircmaxell/random-lib": "~1.1",
@@ -1471,12 +1472,12 @@
                     "pdepend/pdepend": " ~2.0",
                     "phploc/phploc": " ~2.1",
                     "phpmd/phpmd": "~2.0",
-                    "phpunit/phpunit": "~4.3",
+                    "phpunit/phpunit": "~5.0",
                     "sebastian/phpcpd": " ~2.0",
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2019-11-26 21:04:18",
+                "time": "2020-08-18 19:13:03",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
