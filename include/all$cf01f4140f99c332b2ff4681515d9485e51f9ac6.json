@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "f230ae5c4932bd98bc2266ffa6a3e4901646ff48"
+                    "reference": "08975cee69ed5191e0fe473ad3a91fdb0259338a"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2020-08-18 18:22:07",
+                "time": "2020-10-02 14:43:50",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -309,7 +309,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-googleplay.git",
-                    "reference": "44ba1cf74ab0fb672132e7f97b7e886930cd0db5"
+                    "reference": "37977eea2016134a0618baaa2f3b5e45cf87c490"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -329,7 +329,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2020-07-01 19:11:11",
+                "time": "2020-10-14 20:40:59",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -726,7 +726,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-stdlib.git",
-                    "reference": "eb17bb0c0b574fa77ff15dc47b7f1c29e290a5e4"
+                    "reference": "42075bb52d0e6e639efbea7a746f0690a81830d1"
                 },
                 "require": {
                     "psr/http-message": "^1.0"
@@ -740,7 +740,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2020-05-07 18:45:56",
+                "time": "2020-10-14 20:40:16",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1397,7 +1397,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "72521331262b0bcdf0b8d0ed568ec6e86eabd62f"
+                    "reference": "a476b840568703c7e9196f20287c513c6c4367ae"
                 },
                 "require": {
                     "doctrine/doctrine-module": "^1.0.1",
@@ -1425,7 +1425,7 @@
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2020-08-19 21:20:17",
+                "time": "2020-09-28 14:38:30",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
