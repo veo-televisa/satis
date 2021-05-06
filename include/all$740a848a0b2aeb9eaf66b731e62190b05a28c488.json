@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "08975cee69ed5191e0fe473ad3a91fdb0259338a"
+                    "reference": "ed1911fb16f9bc0868f2a8c16b794259cb82cf3d"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2020-10-02 14:43:50",
+                "time": "2021-05-06 15:52:03",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -212,7 +212,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-applepay.git",
-                    "reference": "4a6cb5167a57ceb47d1865cb649a7cfe0ef2febf"
+                    "reference": "6848a02c14252359ffad1ada8d9e054f07739c8e"
                 },
                 "require": {
                     "aporat/store-receipt-validator": "dev-master",
@@ -232,7 +232,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2020-07-01 19:09:52",
+                "time": "2020-12-02 15:29:04",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1397,7 +1397,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "a476b840568703c7e9196f20287c513c6c4367ae"
+                    "reference": "7d679c7c3ae7fcf6fa9cfbf2828b30c332619116"
                 },
                 "require": {
                     "doctrine/doctrine-module": "^1.0.1",
@@ -1425,7 +1425,7 @@
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2020-09-28 14:38:30",
+                "time": "2021-04-05 17:54:27",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
