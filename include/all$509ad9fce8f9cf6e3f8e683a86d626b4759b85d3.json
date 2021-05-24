@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "8d2386f1c4c358534102a58883cd25802f66e87c"
+                    "reference": "a854c01885c3eb3d49ea188e480eebdb48fd8d95"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2021-05-17 18:04:04",
+                "time": "2021-05-24 14:01:12",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -1397,7 +1397,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "7d679c7c3ae7fcf6fa9cfbf2828b30c332619116"
+                    "reference": "665e885a6e7df6709adc384b6989ca3caa8a60b7"
                 },
                 "require": {
                     "doctrine/doctrine-module": "^1.0.1",
@@ -1425,7 +1425,7 @@
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2021-04-05 17:54:27",
+                "time": "2021-05-21 18:40:47",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
