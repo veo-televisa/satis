@@ -490,7 +490,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-spreedly.git",
-                    "reference": "b5ba65a1af5b85d32994a447e06d4efb194e86b6"
+                    "reference": "b796805a37f01f290b66fb32791a0265e69a97e9"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -509,7 +509,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2021-06-16 21:07:14",
+                "time": "2021-06-17 21:56:41",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -726,7 +726,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-stdlib.git",
-                    "reference": "06734876755962b520fac36f34728205ffcb827c"
+                    "reference": "d6def0b1c06bc72641a4ab2e68478c5b60cc8fd8"
                 },
                 "require": {
                     "psr/http-message": "^1.0"
@@ -740,7 +740,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.3"
                 },
-                "time": "2021-06-16 21:11:28",
+                "time": "2021-06-17 21:57:14",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
