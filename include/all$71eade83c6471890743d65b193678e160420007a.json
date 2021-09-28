@@ -46,7 +46,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/blim-utils.git",
-                    "reference": "0f0207dd945fe86854cfb7633f9feb411de2f6b3"
+                    "reference": "da8ef508e6a20610bfd8987283d8d80cedaec94d"
                 },
                 "require": {
                     "aws/aws-sdk-php": "2.*",
@@ -63,7 +63,7 @@
                     "sebastian/phpcpd": "~2.0",
                     "squizlabs/php_codesniffer": "~2.2"
                 },
-                "time": "2021-06-28 09:23:15",
+                "time": "2021-09-28 17:04:54",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -309,7 +309,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/payments-adapter-googleplay.git",
-                    "reference": "37977eea2016134a0618baaa2f3b5e45cf87c490"
+                    "reference": "51d8ab85dbd2d53bc4a10986de83c933b69219f1"
                 },
                 "require": {
                     "ext-openssl": "*",
@@ -329,7 +329,7 @@
                     "squizlabs/php_codesniffer": "~2.3",
                     "televisa/payments-devlib": "*"
                 },
-                "time": "2020-10-14 20:40:59",
+                "time": "2021-06-29 18:51:44",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1397,7 +1397,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:televisa/veo-core.git",
-                    "reference": "665e885a6e7df6709adc384b6989ca3caa8a60b7"
+                    "reference": "d4c76003a6606dde9c927fdb03ac1326969fa6ca"
                 },
                 "require": {
                     "doctrine/doctrine-module": "^1.0.1",
@@ -1425,7 +1425,7 @@
                     "squizlabs/php_codesniffer": "~2.0",
                     "theseer/phpdox": " ~0.7"
                 },
-                "time": "2021-05-21 18:40:47",
+                "time": "2021-07-09 21:55:54",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
